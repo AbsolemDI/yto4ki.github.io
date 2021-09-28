@@ -1,0 +1,448 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+nav {
+	width: 100%;
+	height: 60px;
+	background: #344051;
+}
+
+.logo {
+	color: #fff;
+	font-size: 28px;
+	line-height: 60px;
+	padding-left: 388px;
+	float: left;
+}
+
+.menu {
+	float: left;
+	padding-left: 432px;
+}
+
+.menu li {
+	float: left;
+	line-height: 60px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-right: 40px;
+	font-size: 16px;
+}
+
+.main {
+	width: 100%;
+	height: calc(100% - 60px);
+	background: url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
+}
+
+.tittle__container {
+	float: left;
+	font-size: 60px;
+	text-align: center;
+	margin: 432px 0px 0px 404px;
+}
+
+.tittle__container h1 {
+	color: #2c384a;
+	font-size: 60px;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+.tittle__container h4 {
+	color: #79818d;
+	font-size: 22px;
+}
+
+.tittle__container input {
+	height: 40px;
+	border: 2px solid #6d7682;
+	border-radius: 15px;
+	text-align: center;
+	font-size: 16px;
+	margin: 58px 14px 0px 14px;
+	padding: 0px 16px;
+	color: #6d7682;
+	background-color: none;
+}
+
+.about {
+	text-align: center;
+	height: auto;
+}
+
+.about1 {
+	text-transform: uppercase;
+	font-size: 20px;
+	margin: 108px 0 31px 0;
+	font-weight: bold;
+}
+
+.line1 {
+	height: 4px;
+	background-color: #d17700;
+	width: 60px;
+	margin-bottom: 60px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.b {
+	margin-bottom: 3px;
+}
+
+.about > p {
+	width: 730px;
+	text-align: left;
+	margin: 21px 0px 21px 596px;
+}
+
+
+.resume {
+	margin-top: 13px;
+	height: 30px;
+	width: 153px;
+	border: 2px solid #6d7682;
+	border-radius: 5px;
+	text-align: left;
+	font-size: 16px;
+	padding: 0px 11px 0px 22px;
+	color: #6d7682;
+	margin-bottom: 97px;
+	background-image: url(../img/icon_d.jpg);
+	background-repeat: no-repeat;
+	background-position: 2px;
+	background-color: #fcfdfd;
+}
+
+.skill {
+	height: 522px;
+	background-image: url(../img/skill.jpg);
+	margin-bottom: 0px;
+	padding-top: 107px;
+}
+
+.skill > h2 {
+	text-transform: uppercase;
+	font-size: 20px;
+	margin: 0px 0px 31px 0px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.skill_box {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.design {
+	text-align: center;
+	width: 210px;
+}
+
+.design > h4 {
+	color: #cf7600;
+	margin: 36px 0px 15px 0px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.design > p {
+	font-weight: 500;
+}
+
+.marketing {
+	text-align: center;
+	width: 210px;
+}
+
+.marketing > h4 {
+	color: #cf7600;
+	margin: 36px 0px 15px 0px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.marketing > p {
+	font-weight: 500;
+}
+
+.razrab {
+	text-align: center;
+	width: 210px;
+}
+
+.razrab > h4 {
+	color: #cf7600;
+	margin: 36px 0px 15px 0px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.razrab > p {
+	font-weight: 500;
+}
+
+.SEO {
+	text-align: center;
+	width: 210px;
+}
+
+.SEO > h4 {
+	color: #cf7600;
+	margin: 36px 0px 15px 0px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.SEO > p {
+	font-weight: 500;
+}
+
+.cases1 {
+	text-transform: uppercase;
+	font-size: 20px;
+	margin: 105px 0 30px 0;
+	font-weight: bold;
+	text-align: center;
+}
+
+.cases {
+	margin-bottom: 30px;
+}
+
+.cases > p {
+	font-weight: 500;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.cases > img {
+	width: 100% - 399px;
+
+}
+
+.cases_foot {
+	margin: -160px 399px 0px 388px;
+}
+
+.info {
+	float: left;
+	width: 286px;
+	margin-bottom: 22px;
+
+}
+
+.client > h4 {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-bottom: 14px;
+}
+
+.client > p {
+	padding-bottom: 14px;
+	font-weight: 500;
+}
+
+.website > h4 {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-bottom: 14px;
+}
+
+.website > p {
+	padding-bottom: 14px;
+	font-weight: 500;
+}
+
+.name__project {
+	text-align: justify;
+	height: 106px;
+}
+
+.name__project > h5 {
+	font-size: 15px;
+	font-weight: bold;
+	padding-bottom: 11px;
+}
+
+.name__project > p {
+	line-height: 1.5em;
+	font-weight: 500;
+
+}
+
+.button1 {}
+
+.price > h2 {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 150px;
+}
+
+.first h3 {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 59px 0px 22px 499px;
+
+}
+
+.first_opt {
+	height: 59px;
+	width: 891px;
+	color: #eeeeee;
+	margin-left: 499px;
+	color: #737373;
+	background-color: #eeeeee;
+	padding-left: 24px;
+}
+
+.second h3 {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 59px 0px 22px 499px;
+
+}
+
+.second_opt {
+	height: 59px;
+	width: 891px;
+	color: #eeeeee;
+	margin-left: 499px;
+	color: #737373;
+	background-color: #eeeeee;
+	padding-left: 24px;
+}
+
+.third h3 {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 59px 0px 22px 499px;
+}
+
+.third_opt {
+	height: 59px;
+	width: 891px;
+	color: #eeeeee;
+	margin-left: 499px;
+	color: #737373;
+	background-color: #eeeeee;
+	padding-left: 24px;
+}
+
+.line2 {
+	height: 2px;
+	background-color: #eeeeee;
+	width: 891px;
+	margin-left: 499px;
+	margin-top: 35px;
+}
+
+.foot_price {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 23px 511px 154px 499px;
+}
+
+.time {
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+#right {
+	float: right;
+}
+
+.stats {
+	background-image: url(../img/fon2.jpg);
+	padding-top: 103px;
+	width: auto;
+}
+
+.stats_box {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 102px;
+}
+
+.stats > h2 {
+	text-align: center;
+	margin-bottom: 31px;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.one {
+	text-align: center;
+	
+}
+
+.one h4 {
+	font-size: 20px;
+	font-weight: 900;
+	margin-top: 34px;
+	margin-bottom: 31px;
+}
+
+.one > p {
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.two {
+	text-align: center;
+}
+
+.two h4 {
+	font-size: 20px;
+	font-weight: 900;
+	margin-top: 34px;
+	margin-bottom: 31px;
+}
+
+.two > p {
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.three {
+	text-align: center;
+}
+
+.three h4 {
+	font-size: 20px;
+	font-weight: 900;
+	margin-top: 34px;
+	margin-bottom: 31px;
+}
+
+.three > p {
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.four {
+	text-align: center;
+}
+
+.four h4 {
+	font-size: 20px;
+	font-weight: 900;
+	margin-top: 34px;
+	margin-bottom: 31px;
+}
+
+.four > p {
+	text-transform: uppercase;
+	font-size: 16px;
+}

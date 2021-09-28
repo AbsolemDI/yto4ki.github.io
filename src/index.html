@@ -4,6 +4,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Test</title>
+	<link rel="stylesheet" href="../src/css/reset.css">
+	<link rel="stylesheet" href="../src/css/Style.css">
 </head>
 
 <body>
@@ -28,40 +30,40 @@
 			<h1>Привет <br> Я Иван Дудник</h1>
 			<h4>Фулл стек веб-разработчик</h4>
 			<input type="submit" id="1" value="Обо мне">
-			<input type="submit" id="1" value="Мои работы">
+			<input type="submit" id="2" value="Мои работы">
 		</div>
 	</div>
 
 	<div class="about">
-		<h2 class="about1"><big>Обо мне</big></h2>
-		<hr>
-		<img src="" alt="картинка">
+		<h2 class="about1">Обо мне</h2>
+		<div class="line1"></div>
+		<img class="b" src="../src/img/boy2.jpg" alt="картинка">
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias similique accusantium, at officia, totam, iusto voluptates reiciendis aliquam ea alias eveniet. Facere illum error quia illo fugit nemo totam asperiores!</p>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias quas non nostrum illo tempore. Sapiente, assumenda id perferendis fuga, atque quisquam obcaecati? Ut deserunt qui iusto rem, magni non, placeat.</p>
 		<input class="resume" type="submit" id="icon" value="Скачать резюме">
 	</div>
 
 	<div class="skill">
-		<h2 class="skill1"><big>Что я умею</big></h2>
-		<hr>
+		<h2 class="skill1">Что я умею</h2>
+		<div class="line1"></div>
 		<div class="skill_box">
-			<div class="disign">
-				<img src="" alt="картинка">
+			<div class="design">
+				<img src="../src/img/note.png" alt="картинка">
 				<h4>Веб-дизайн</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 			</div>
 			<div class="razrab">
-				<img src="" alt="картинка">
+				<img src="../src/img/znak.png" alt="картинка">
 				<h4>Разработка</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 			</div>
 			<div class="SEO">
-				<img src="" alt="картинка">
+				<img src="../src/img/rocket.png" alt="картинка">
 				<h4>СЕО-Оптимизация</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 			</div>
 			<div class="marketing">
-				<img src="" alt="картинка">
+				<img src="../src/img/mat.png" alt="картинка">
 				<h4>Маркетинг</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 			</div>
@@ -70,94 +72,96 @@
 
 	<div class="cases">
 		<h2 class="cases1"><big>Кейсы</big></h2>
-		<hr>
+		<div class="line1"></div>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, autem!</p>
-		<img src="" alt="картинка">
+		<img src="../src/img/site.jpg.png" alt="картинка">
 		<div class="cases_foot">
-			<div class="client">
-				<h4><big>Client:</big></h4>
-				<p>Какая-то компания</p>
-			</div>
-			<div class="website">
-				<h4><big>Website:</big></h4>
-				<a href="">http://www.mysite.com</a>
+			<div class="info">
+				<div class="client">
+					<h4>Client:</h4>
+					<p>Какая-то компания</p>
+				</div>
+				<div class="website">
+					<h4>Website:</h4>
+					<a href="">http://www.mysite.com</a>
+				</div>
 			</div>
 			<div class="name__project">
 				<h5>Название проекта</h5>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore, illum. Voluptates aspernatur mollitia quia id soluta dolorem inventore consequatur, sequi non, tempora reiciendis ullam a. Voluptas voluptates, autem voluptatibus.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam dolor atque numquam distinctio placeat possimus consequuntur tenetur est pariatur vitae quos ab odio nemo adipisci hic quam quia aliquam cupiditate similique, quas dicta, fuga. Similique, atque ab veritatis rerum quae quas, quidem cumque vero itaque deserunt quos cum expedita doloribus.</p>
 			</div>
-			<input type="submit" value="VISIT LIVE SITE">
+			<input class="button1" type="submit" value="VISIT LIVE SITE">
 		</div>
 	</div>
 
 	<div class="price">
 		<h2 class="price1">Расчет стоимости</h2>
-		<div class="1">
-			<h3><big>тип сайта</big></h3>
-			<select name="list1" id="list1">
-				<option value="Opt1">Option 1</option>
-				<option value="opt2">Option 2</option>
-				<option value="Opt3">Option 3</option>
+		<div class="first">
+			<h3>тип сайта</h3>
+			<select class="first_opt" name="list1" id="list1">
+				<option value="Opt1">Выберите пункт...</option>
+				<option value="opt2">Выберите пункт...</option>
+				<option value="Opt3">Выберите пункт...</option>
 			</select>
 		</div>
 
-		<div class="2">
-			<h3><big>дизайн</big></h3>
-			<select name="list2" id="list2">
-				<option value="Opt1">Option 1</option>
-				<option value="opt2">Option 2</option>
-				<option value="Opt3">Option 3</option>
+		<div class="second">
+			<h3>дизайн</h3>
+			<select name="second_opt" id="list2">
+				<option value="Opt1">Выберите пункт...</option>
+				<option value="opt2">Выберите пункт...</option>
+				<option value="Opt3">Выберите пункт...</option>
 			</select>
 		</div>
 
-		<div class="3">
-			<h3><big>адаптивность</big></h3>
-			<select name="list3" id="list3">
-				<option value="Opt1">Option 1</option>
-				<option value="opt2">Option 2</option>
-				<option value="Opt3">Option 3</option>
+		<div class="third">
+			<h3>адаптивность</h3>
+			<select name="third_opt" id="list3">
+				<option value="Opt1">Выберите пункт...</option>
+				<option value="opt2">Выберите пункт...</option>
+				<option value="Opt3">Выберите пункт...</option>
 			</select>
 		</div>
-		<hr>
+		<div class="line2"></div>
 		<div class="foot_price">
 			<div class="time">
-				<p>Сроки</p>
+				<p>Сроки <span id="right">0</span></p>
 			</div>
 			<div class="price1">
-				<p>Стоимость</p>
+				<p>Стоимость <span id="right">0</span></p>
 			</div>
 		</div>
 	</div>
 
-	<div class="statistics">
-		<h2 class="statistics1"><big>немного статистики</big></h2>
-		<hr>
-		<div class="statitics_box">
-			<div class="1">
-				<img src="" alt="картинка">
-				<h4><b>120</b></h4>
-				<p><big>счастливых клиентов</big></p>
+	<div class="stats">
+		<h2 class="statistics1">немного статистики</h2>
+		<div class="line1"></div>
+		<div class="stats_box">
+			<div class="one">
+				<img src="../src/img/smile.png" alt="картинка">
+				<h4>120</h4>
+				<p>счастливых клиентов</p>
 			</div>
-			<div class="2">
-				<img src="" alt="картинка">
-				<h4><b>4,600</b></h4>
-				<p><big>часов работы</big></p>
+			<div class="two">
+				<img src="../src/img/skobki.png" alt="картинка">
+				<h4>4,600</h4>
+				<p>часов работы</p>
 			</div>
-			<div class="3">
-				<img src="" alt="картинка">
-				<h4><b>340</b></h4>
-				<p><big>проектов завершено</big></p>
+			<div class="three">
+				<img src="../src/img/galochka.png" alt="картинка">
+				<h4>340</h4>
+				<p>проектов завершено</p>
 			</div>
-			<div class="4">
-				<img src="" alt="картинка">
-				<h4><b>23</b></h4>
-				<p><big>наград получено</big></p>
+			<div class="four">
+				<img src="../src/img/kubok.png" alt="картинка">
+				<h4>23</h4>
+				<p>наград получено</p>
 			</div>
 		</div>
 	</div>
 	<div class="reviews">
 		<h2 class="reviews1"><big>Отзывы</big></h2>
-		<hr>
+		<div class="line1"></div>
 		<img src="" alt="картинка">
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt saepe, unde voluptate consectetur asperiores accusamus. Excepturi sint saepe voluptatibus soluta, corporis voluptates voluptatem, fugiat suscipit quo praesentium maiores accusantium fugit.</p>
 		<p>Михаил, Ген. диреткор ПАО "Газпром"</p>
@@ -170,7 +174,7 @@
 
 	<div class="contact">
 		<h2 class="contact1"><big>Мои контакты</big></h2>
-		<hr>
+		<div class="line1"></div>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, repudiandae.</p>
 		<div class="contact1">
 			<div class="adress">
