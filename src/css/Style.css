@@ -79,6 +79,19 @@ nav {
 	font-weight: bold;
 }
 
+.aboutMe {
+	width: 730px;
+	margin: 21px 0px 21px 596px;
+}
+
+.aboutMe > p {
+	text-align: left;
+	margin-top: 0.5em;
+	/* Отступ сверху */
+	margin-bottom: 2em;
+	/* Отступ снизу */
+}
+
 .line1 {
 	height: 4px;
 	background-color: #d17700;
@@ -92,13 +105,6 @@ nav {
 .b {
 	margin-bottom: 3px;
 }
-
-.about > p {
-	width: 730px;
-	text-align: left;
-	margin: 21px 0px 21px 596px;
-}
-
 
 .resume {
 	margin-top: 13px;
@@ -220,13 +226,17 @@ nav {
 	padding-bottom: 40px;
 }
 
-.cases > img {
-	width: 100% - 399px;
 
+
+.img5 {
+	background-image: url(../img/site.jpg);
+	background-repeat: no-repeat;
+	height: 588px;
+	width: auto;
 }
 
 .cases_foot {
-	margin: -160px 399px 0px 388px;
+	margin: 40px 399px 0px 388px;
 }
 
 .info {
@@ -277,7 +287,21 @@ nav {
 
 }
 
-.button1 {}
+.button1 {
+	margin-top: 25px;
+	display: block;
+	width: 201px;
+	height: 44px;
+	border: 2px solid #63b5ae;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 16px;
+	padding: 0px 11px 0px 22px;
+	color: #ffffff;
+	background-color: #63b5ae;
+	font-weight: 500;
+
+}
 
 .price > h2 {
 	font-size: 24px;
@@ -371,7 +395,7 @@ nav {
 .stats_box {
 	display: flex;
 	justify-content: space-around;
-	margin-bottom: 102px;
+	padding-bottom: 102px;
 }
 
 .stats > h2 {
@@ -384,7 +408,7 @@ nav {
 
 .one {
 	text-align: center;
-	
+
 }
 
 .one h4 {
@@ -445,4 +469,174 @@ nav {
 .four > p {
 	text-transform: uppercase;
 	font-size: 16px;
+}
+
+.reviews {
+	text-align: center;
+	margin-top: 104px;
+	margin-bottom: 91px;
+}
+
+.reviews > h2 {
+	margin-bottom: 58px;
+}
+
+.reviews > img {
+	margin-bottom: 34px;
+}
+
+.reviews > p {
+	margin-bottom: 34px;
+	width: 688px;
+	margin-left: 616px;
+}
+
+.contact {
+	background-image: url(../img/fon3.jpg);
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: auto;
+
+}
+
+.contact1 {
+	font-size: 20px;
+	font-weight: 900;
+	margin-top: 34px;
+	margin-bottom: 31px;
+	color: #fff;
+
+}
+
+.contact2 {
+	height: 71px;
+	font-weight: 500;
+	color: #fff;
+	margin-bottom: 32px;
+	flex-direction: row;
+	align-items: center;
+	display: flex;
+	width: 602px;
+	font-size: 14px;
+	justify-content: space-around;
+}
+
+.qwe {
+	color: #fff;
+	margin-bottom: 49px;
+}
+
+.adress {
+	text-align: center;
+}
+
+.adress > img {
+	margin-bottom: 14px;
+}
+
+.adress > p {
+	line-height: 1.5rem;
+}
+
+.mail {
+	text-align: center;
+}
+
+.mail > img {
+	margin-bottom: 14px;
+}
+
+.mail > p {
+	line-height: 1.5rem;
+}
+
+.tele {
+	text-align: center;
+}
+
+.tele > img {
+	margin-bottom: 14px;
+}
+
+.tele > p {
+	line-height: 1.5rem;
+}
+
+.feedback {
+	color: white;
+	margin-bottom: 44px;
+	font-size: 16px;
+	text-transform: uppercase;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	width: 734px;
+	padding-bottom: 141px;
+}
+
+.feedback > h4 {
+	margin-bottom: 44px;
+}
+
+#uni {
+	width: 733px;
+	height: 94px;
+	margin-bottom: 40px;
+	padding: 20px;
+	color: #5d5d5e;
+}
+
+
+form {
+	display: block;
+	color: white;
+}
+
+form input {
+	text-align: left;
+	padding: 20px;
+	margin-bottom: 14px;
+	width: 364px;
+	height: 34px;
+	color: #5d5d5e;
+
+}
+
+.button {
+	border: 2px solid #fff;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #6d7682;
+	background: none;
+	color: #fff;
+	height: 42px;
+	width: 121px;
+	text-align: center;
+	padding-top: 10px;
+
+}
+
+
+.map {
+	background-image: url(../img/map.jpg);
+	height: 350px;
+	width: auto;
+
+}
+
+footer {
+	height: 92px;
+	background-color: #354051;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer > p {
+	color: #fff;
+	font-size: 18px;
+
 }
